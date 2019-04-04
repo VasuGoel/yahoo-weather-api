@@ -1,6 +1,6 @@
-# MovieDatabaseAPI
+# YahooWeatherAPI
 
-MovieDatabaseAPI provides information on the latest movie, TV and celebrity content available on the web. MovieDatabaseAPI makes use of the OMDB API for making asynchronous calls to the API with the search query to return information in JSON, which is well formatted for readability and utility.
+Get up-to-date weather information for any location, including 10-day forecast, wind, atmosphere, astronomy conditions, and more. You can lookup weather by location (city name) or lat/long.
 
 ## Getting Started
 
@@ -8,26 +8,23 @@ Start by either downloading the zip file or clone with HTTPS.
 
 ### Prerequisites
 
-A modern web-browser like Safari, Chrome, Microsoft-Edge, Mozilla Firefox, etc.
 Command-Line
 Node 
 NPM
 
 ### Running
 
-1. Run "npm install" from the terminal in the root directory of repository.
-2. Change the UNIX Socket i.e. replace process.env.PORT and process.env.IP environment variables to port number of your choice.
-3. Run "node app.js" from the terminal to start the server.
-4. Visit the localhost (from Step 2) and search for any movie, TV, and celebrity news.
+1. Run "npm install" from the terminal in the root directory of repository to download all the dependencies.
+2. Run "node YahooWeather.js" to run the file using node.
+3. View the information in the node console.
 
 ## Built With
 
 * [Node.js] (https://nodejs.org/en/) - Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
 * [Express] (https://expressjs.com/) - Fast, unopinionated, minimalist web framework for Node.js
-* [OMDB API] (http://www.omdbapi.com/) - The OMDb API is a RESTful web service to obtain movie information.
-* [Axios] (https://github.com/axios/axios) - Promise based HTTP client for the browser and node.js
+* [Yahoo Weather API] (https://developer.yahoo.com/weather/) - Get up-to-date weather information for any location
+* [OAuth] (https://www.npmjs.com/package/oauth) - A simple oauth API for node.js.
 * [Javascript] (https://www.javascript.com/) - High-level, interpreted programming language
-* [HTML] (https://www.html.com/) - Standard markup language
 
 ## Authors
 
@@ -35,9 +32,9 @@ NPM
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/VasuGoel/MovieDatabaseAPI/blob/master/LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/VasuGoel/YahooWeatherAPI/blob/master/LICENSE) file for details
 
 ## Acknowledgments
 
-* https://www.imdb.com/
+* Yahoo Weather API
 
