@@ -36,5 +36,5 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 ## Acknowledgments
 
-* Yahoo Weather API
+* Yahoo Weather
 
